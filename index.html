@@ -13,8 +13,8 @@
 <body>
 	<header>
 		<nav>
-			<div class="container">
-				<ul class="menu">
+			<div c	lass="container">
+				<ul class="menu menu_active	">
 					<li class="menu_item"><a href="#" class="menu_link">Главная</a> </li>
 					<li class="menu_item"><a href="#" class="menu_link">Со своим автомобилем</a></li>
 					<li class="menu_item"><a href="#" class="menu_link">На автомобиле компании</a> </li>
@@ -23,19 +23,25 @@
 					<li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
 				</ul>
 		</div>
+		<div class="hamburger hamburger_active">
+			<span></span>
+			<span></span>
+			<span></span>
+			</div>
 		</nav>
 		<div class="subheader">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 offset-md-1">
+					<div class="col-6 col-md-4 offset-md-1">
 						<a href="#"><img src="icons/Uber.png" alt="logo" class="subheader_logo"></a>
 						<div class="subheader_official">Официальный партнер Uber в Москве</div>
 					</div>
-					<div class="col-md-4 col-xl-4  col-xl-2 offset-xl-2">
+					<div class=" xs-hidden  col-md-3 offset-md-1 col-xl-2 offset-xl-2">
 						<div class="subheader_call">Звоните нам ежедневно</div>
 						<a href="tel:+74957970988" class="subheader_phone"> 8 495 797 09 88</a>
 					</div>
-					<div class="col-md-2 ">
+					<div class="col-6 col-md-3  ">
+						<a href="tel:+74957970988" class="xs-visible subheader_phone"> 8 495 797 09 88</a>
 						<button class="subheader_btn">
 							заказать звонок
 						</button>
@@ -71,12 +77,12 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="reasons_wrapper_item">
-							<div class="wrapper_around"><img src="icons/reasons/card_cash.png" alt="online pay" class="wrapper_img"></div>
-							<div class="wrapper_text">
-								<div class="wrapper_descr">
+							<div class="reasons_wrapper_around"><img src="icons/reasons/card_cash.png" alt="online pay" class="reasons_wrapper_img"></div>
+							<div class="reasons_wrapper_text">
+								<div class="reasons_wrapper_descr">
 									Никаких наличных, оплата происходит автоматически
 								</div>
-								<div class="subdescr">
+								<div class="reasons_wrapper_subdescr">
 									Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.
 								</div>
 							</div>
@@ -84,68 +90,68 @@
 					</div>
 					<div class="col-md-6">
 						<div class="reasons_wrapper_item">
-							<div class="wrapper_around"><img src="icons/reasons/analist.png" alt="bonus" class="wrapper_img"></div>
-							<div class="wrapper_text">
-								<div class="wrapper_descr">Комиссия 8% + БОНУСЫ</div> 
-									<div class="subdescr">У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку, некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно и с нами водители зарабатывают больше!</div>
+							<div class="reasons_wrapper_around"><img src="icons/reasons/analist.png" alt="bonus" class="reasons_wrapper_img"></div>
+							<div class="reasons_wrapper_text">
+								<div class="reasons_wrapper_descr">Комиссия 8% + БОНУСЫ</div> 
+									<div class="reasons_wrapper_subdescr">У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку, некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно и с нами водители зарабатывают больше!</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="reasons_wrapper_item">
-							<div class="wrapper_around"><img src="icons/reasons/cash.png" alt="cash" class="wrapper_img"></div>
-							<div class="wrapper_text">
-								<div class="wrapper_descr">	Высокий доход с гарантированнымивыплатами</div> 
-									<div class="subdescr">Мы выплачиваем заработную плату на личную банковскую карту водителя! Вам не нужно оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать бухгалтерские услуги и ведение банковского счета.</div>
+							<div class="reasons_wrapper_around"><img src="icons/reasons/cash.png" alt="cash" class="reasons_wrapper_img"></div>
+							<div class="reasons_wrapper_text">
+								<div class="reasons_wrapper_descr">	Высокий доход с гарантированнымивыплатами</div> 
+									<div class="reasons_wrapper_subdescr">Мы выплачиваем заработную плату на личную банковскую карту водителя! Вам не нужно оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать бухгалтерские услуги и ведение банковского счета.</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="reasons_wrapper_item">
-							<div class="wrapper_around"><img src="icons/reasons/date.png" alt="date" class="wrapper_img"></div>
-							<div class="wrapper_text">
-								<div class="wrapper_descr">Работа в удобное время, никаких графиков	</div> 
-									<div class="subdescr">Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить, нажимаете выйти с линии. Вы можете подраба-
+							<div class="reasons_wrapper_around"><img src="icons/reasons/date.png" alt="date" class="reasons_wrapper_img"></div>
+							<div class="reasons_wrapper_text">
+								<div class="reasons_wrapper_descr">Работа в удобное время, никаких графиков	</div> 
+									<div class="reasons_wrapper_subdescr">Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить, нажимаете выйти с линии. Вы можете подраба-
 										тывать только утром, вечером, в выходные или праздничные дни! </div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="reasons_wrapper_item">
-							<div class="wrapper_around"><img src="icons/reasons/key.png" alt="easy_connect" class="wrapper_img"></div>
-							<div class="wrapper_text">
-								<div class="wrapper_descr">
+							<div class="reasons_wrapper_around"><img src="icons/reasons/key.png" alt="easy_connect" class="reasons_wrapper_img"></div>
+							<div class="reasons_wrapper_text">
+								<div class="reasons_wrapper_descr">
 									Комфортное, прозрачное и простое подключение	</div> 
-									<div class="subdescr">
+									<div class="reasons_wrapper_subdescr">
 										Мы подключаем дистанционно и бесплатно, Вам нет необходимости приезжать к нам! Вы присылаете нам копии документов, мы регистрируем Вас и присылаем данные для подключения, через 1-2 дня Вы можете начинать работать!</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="reasons_wrapper_item">
-							<div class="wrapper_around"><img src="icons/reasons/location.png" alt="many_olders" class="wrapper_img"></div>
-							<div class="wrapper_text">
-								<div class="wrapper_descr">Всегда большое количество заказов	</div> 
-									<div class="subdescr">
+							<div class="reasons_wrapper_around"><img src="icons/reasons/location.png" alt="many_olders" class="reasons_wrapper_img"></div>
+							<div class="reasons_wrapper_text">
+								<div class="reasons_wrapper_descr">Всегда большое количество заказов	</div> 
+									<div class="reasons_wrapper_subdescr">
 										Приложение показывает, где на данный момент больше всего заказов и где действуют повышенные тарифы. У Вас не будет простоя и холостых пробегов. Наши пассажиры всегда приятные и абсолютно неконфликтные люди, которых приятно возить.</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="reasons_wrapper_item">
-							<div class="wrapper_around"><img src="icons/reasons/support.png" alt="suport" class="wrapper_img"></div>
-							<div class="wrapper_text">
-								<div class="wrapper_descr">	Круглосуточная поддержка</div> 
-									<div class="subdescr">В Uber действует круглосуточная поддержка водителей по электронной почте. Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.</div>
+							<div class="reasons_wrapper_around"><img src="icons/reasons/support.png" alt="suport" class="reasons_wrapper_img"></div>
+							<div class="reasons_wrapper_text">
+								<div class="reasons_wrapper_descr">	Круглосуточная поддержка</div> 
+									<div class="reasons_wrapper_subdescr">В Uber действует круглосуточная поддержка водителей по электронной почте. Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="reasons_wrapper_item">
-							<div class="wrapper_around"><img src="icons/reasons/car.png" alt="car" class="wrapper_img"></div>
-							<div class="wrapper_text">
-								<div class="wrapper_descr">	Без шашечек и наклеек</div> 
-									<div class="subdescr">Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.</div>
+							<div class="reasons_wrapper_around"><img src="icons/reasons/car.png" alt="car" class="reasons_wrapper_img"></div>
+							<div class="reasons_wrapper_text">
+								<div class="reasons_wrapper_descr">	Без шашечек и наклеек</div> 
+									<div class="reasons_wrapper_subdescr">Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.</div>
 							</div>
 						</div>
 					</div>
@@ -335,7 +341,7 @@
 			<a href="#"><img src="icons/getApp/windows.svg" alt="windows" class="app_img"></a>
 			<a href="#"><img src="icons/getApp/huawei.svg" alt="huawei" class="app_img"></a>
 		</div></div>
-
 	</footer>
+	<script src="js/script.js"></script>
 </body>
 </html>
