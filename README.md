@@ -1,5 +1,5 @@
 # edu_project_2_uber
-edu project UBER + mobile
+EDU PROJECT_2 UBER + mobile
 
 -flexbox
 -SASS
