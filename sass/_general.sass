@@ -314,20 +314,20 @@ nav
 				height: 20px
 				background: url("../icons/check_blue.svg") center center / cover no-repeat
 	.red
-		font-weight: 400
-		font-size: 22px
-		color: #FF5656
+		.red_title
+			font-weight: 400
+			font-size: 22px
+			color: #FF5656
 		.terms_list
 			li
-				&:before
-					background: url('../icons/check_red.svg') center center / cover no-repeat
-	
-
+				&::before
+					background: url("../icons/check_red.svg") center center / cover no-repeat
+				
 .world
 	min-height: 720px
 	background: url('../img/bg/world_bg.jpg') center center / cover no-repeat
 	padding: 50px 0 60px 0
-	&_city
+	&_city	
 		text-transform: uppercase
 		font-weight: 400
 		font-size: 15px
