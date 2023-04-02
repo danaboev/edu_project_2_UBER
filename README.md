@@ -7,4 +7,7 @@ EDU PROJECT_2 UBER + mobile
 псевдклассы-псевдоэлементы
 -hover/before
 -bootstrap
+-media запросы
+-вендорные префиксы
+
 
