@@ -2,6 +2,9 @@
 
 edu project UBER + mobile 
 
+- html/html5
+- css/css3
+
 - псевдклассы-псевдоэлементы
 - hover/before
 - bootstrap
@@ -12,3 +15,4 @@ edu project UBER + mobile
 - broswer-snyc
 
 сайт был адаптирован под мобильное устройство конечно же по макету (фигма)
+
